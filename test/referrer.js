@@ -38,6 +38,15 @@ describe('fetch() with referrer and referrerPolicy', () => {
 		});
 	});
 
+	it('should send request with a referrer when using strict-origin', () => {
+		return fetch(`${base}inspect`, {
+			referrer: base,
+			referrerPolicy: 'strict-origin'
+		}).then(res => res.json()).then(res => {
+			expect(res.headers.referer).to.equal(base);
+		});
+	});
+
 	it('should send request with referrerPolicy strict-origin-when-cross-origin by default', () => {
 		return Promise.all([
 			fetch(`${base}inspect`, {
