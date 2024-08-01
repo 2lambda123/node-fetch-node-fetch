@@ -2,4 +2,4 @@
 
 ## Reporting a Vulnerability
 
-Please report security issues to `jimmy@warting.se`
+Please report security issues to `remiz@remizreza.com`
