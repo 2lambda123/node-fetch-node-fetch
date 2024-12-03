@@ -55,7 +55,7 @@
     "coveralls": "^3.1.0",
     "form-data": "^4.0.0",
     "formdata-node": "^6.0.3",
-    "mocha": "^10.7.3",
+    "mocha": "^11.0.1",
     "p-timeout": "^6.1.1",
     "stream-consumers": "^1.0.1",
     "tsd": "^0.31.2",
