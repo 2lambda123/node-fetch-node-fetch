@@ -59,7 +59,7 @@
     "p-timeout": "^6.1.1",
     "stream-consumers": "^1.0.1",
     "tsd": "^0.31.2",
-    "xo": "^0.59.3"
+    "xo": "^0.60.0"
   },
   "dependencies": {
     "data-uri-to-buffer": "^6.0.2",
